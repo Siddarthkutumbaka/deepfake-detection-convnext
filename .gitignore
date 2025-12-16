@@ -1,3 +1,19 @@
+checkpoints/
+results/
+*.pth
+*.pt
+
+# Data
+data/
+datasets/
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+.DS_Store
+
 # Python
 __pycache__/
 *.pyc
