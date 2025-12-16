@@ -1,3 +1,10 @@
+Metadata-Version: 2.4
+Name: deepfake-detection-convnext
+Version: 0.1.0
+Summary: Deepfake detection using ConvNeXt on DFDC
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
 # Deepfake Detection using ConvNeXt (DFDC)
 
 This project trains a ConvNeXt-based classifier to detect deepfake content using the DFDC dataset (frame-level training + video-level voting inference).

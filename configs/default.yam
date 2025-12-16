@@ -1,0 +1,20 @@
+seed: 42
+device: auto   # auto|cpu|cuda|mps
+
+data:
+  root: /kaggle/input/dfdc-f150
+  img_size: 224
+  batch_size: 32
+  num_workers: 4
+
+train:
+  epochs: 5
+  lr: 0.0003
+  weight_decay: 0.01
+  model_name: convnext_tiny  # convnext_tiny|resnet18
+  save_dir: checkpoints
+  best_name: best_model.pth
+
+eval:
+  threshold: 0.5
+  frames_per_video: 10  # for video-level voting
