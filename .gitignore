@@ -1,6 +1,29 @@
+# Python
 __pycache__/
-.ipynb_checkpoints/
 *.pyc
+.ipynb_checkpoints/
+
+# Mac
 .DS_Store
+
+# Envs
 .env
-checkpoints/*.pth
+.venv/
+venv/
+
+# Large artifacts / outputs
+checkpoints/
+results/
+*.pth
+*.pt
+*.ckpt
+
+# Data
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.mp4
+*.avi
+*.mov
